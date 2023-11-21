@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 0;
+}
+h1{
+    font-size: 20px;
+}
+.services
+{
+    height: 100vh;
+}
+.heading{
+    text-align: center;
+    font-size: 1rem;
+    padding: 30px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #c8c7c7;
+    height: 600px;
+}
+.box1 {
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+  }
+  .box2{
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+  }
+  .box3{
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+  }
+  .box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .box1-image {
+    background-image: url("/Images/sorting.gif");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }  
+  .box2-image {
+    background-image: url("/Images/searchingalgo.gif");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }  
+  .box3-image {
+    background-image: url("/Images/pathfinding.gif");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  } 
+  .title{
+    padding: 1rem;
+    text-align: center;
+  } 
+  .allsortalgo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .tutorial{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+  }
+  button{
+    padding: 0px 50px 0px 50px ;
+  }
+  .btn-item{
+    padding: 1.4rem;
+    width: 50%;
+    
+  }
+
+  /*Sorting Algorithm*/
+
+  .algorithm {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.algorithm h2 {
+    color: #007BFF;
+}
+
+.algorithm p {
+    margin-top: 10px;
+}
+
+/*Bubble Sort*/
+.parent{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+}
+
+/*Implementation of bubble sort
